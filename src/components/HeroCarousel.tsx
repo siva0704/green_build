@@ -20,8 +20,8 @@ const images: CarouselImage[] = [
     alt: "Contemporary luxury home architectural visualization"
   },
   {
-    src: "/lovable-uploads/84027f57-6017-4544-bb7c-de4e3584b6a0.png",
-    alt: "Construction site with workers and cranes silhouette"
+    src: "/lovable-uploads/207af8a7-5183-4a38-8e78-c52185af5096.png",
+    alt: "Construction site with workers and cranes at sunset"
   },
   {
     src: "/lovable-uploads/6395e780-0a2b-459d-91c5-450ece017b34.png",
