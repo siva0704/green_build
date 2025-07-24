@@ -72,8 +72,8 @@ export const HeroSection = () => {
           minute: '2-digit',
           second: '2-digit'
         }),
-        'Full Name': formData.fullName.trim(),
-        'Mobile Number': formData.mobileNumber.trim(),
+        'FullName': formData.fullName.trim(),
+        'MobileNumber': formData.mobileNumber.trim(),
         'Location': formData.location.trim(),
         'Source': 'Hero Section',
         'Status': 'New'
