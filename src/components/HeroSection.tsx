@@ -28,13 +28,19 @@ export const HeroSection = () => {
   const showSuccessPopup = () => {
     // Create and show popup
     const popup = document.createElement('div');
-    popup.className = 'fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-emerald-500 text-white px-6 py-4 rounded-lg shadow-lg z-50 font-semibold';
+    popup.className = 'fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-emerald-500 text-white px-6 py-4 rounded-lg shadow-lg z-50 font-semibold transition-all duration-300';
     popup.textContent = 'Thanks for contacting us!';
     document.body.appendChild(popup);
 
-    // Remove popup after 2 seconds
+    // Remove popup after 2 seconds with error handling
     setTimeout(() => {
-      document.body.removeChild(popup);
+      try {
+        if (popup && popup.parentNode) {
+          popup.parentNode.removeChild(popup);
+        }
+      } catch (error) {
+        console.log('Popup already removed');
+      }
     }, 2000);
   };
 
