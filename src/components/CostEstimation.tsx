@@ -18,7 +18,8 @@ export const CostEstimation = () => {
     { name: "Basic", price: "₹ 2000 /sqft" },
     { name: "Classic", price: "₹ 2200 /sqft" },
     { name: "Premium", price: "₹ 2350 /sqft" },
-    { name: "Royale", price: "₹ 2600 /sqft" }
+    { name: "Royale", price: "₹ 2600 /sqft" },
+    { name: "Interior", price: "₹ 1220 - 3000 /sqft" }
   ];
 
   return (
