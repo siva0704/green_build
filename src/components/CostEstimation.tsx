@@ -15,10 +15,10 @@ export const CostEstimation = () => {
   };
   
   const costOptions = [
-    { name: "Basic", price: "₹ 1850 /sqft (Incl. GST)" },
-    { name: "Classic", price: "₹ 1995 /sqft (Incl. GST)" },
-    { name: "Premium", price: "₹ 2150 /sqft (Incl. GST)" },
-    { name: "Royale", price: "₹ 2350 /sqft (Incl. GST)" }
+    { name: "Basic", price: "₹ 2000 /sqft" },
+    { name: "Classic", price: "₹ 2200 /sqft" },
+    { name: "Premium", price: "₹ 2350 /sqft" },
+    { name: "Royale", price: "₹ 2600 /sqft" }
   ];
 
   return (
